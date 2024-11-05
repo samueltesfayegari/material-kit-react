@@ -16,6 +16,7 @@ import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import EventForm from '@/components/dashboard/calendar/event-form';
 import { useUser } from '@/hooks/use-user';
 import { User } from '@/types/user';
+import './styles.css';
 
 const localizer = dayjsLocalizer(dayjs);
 
