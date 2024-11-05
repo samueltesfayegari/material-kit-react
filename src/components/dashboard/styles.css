@@ -1,0 +1,67 @@
+.rbc-header {
+  background-color: #003366; /* Dark blue background */
+  color: #ffffff; /* White text */
+  border-bottom: 2px solid #000000; /* Black border at the bottom */
+  font-weight: bold; /* Make the header text bold */
+  padding: 10px; /* Add some padding for spacing */
+  text-align: center; /* Center-align the text */
+  height: '36px' !important;
+}
+
+.rbc-header:hover {
+  background-color: #00509e; /* Lighter blue on hover */
+}
+
+.rbc-allday-cell {
+  display: none; /* Hides the all-day cell */
+}
+
+.rbc-time-header-cell .rbc-today {
+  background-color: #00509e !important; /* Lighter blue for today's date */
+  color: #ffffff !important; /* White text for contrast */
+  font-weight: bold !important; /* Make today's date bold */
+}
+
+.rbc-time-header-cell .rbc-today:hover {
+  background-color: #003366; /* Dark blue on hover */
+}
+
+.rbc-time-slot {
+  background-color: #f0f4f8; /* Light gray background for time slots */
+  border-bottom: 1px solid #e0e0e0; /* Light gray border for separation */
+  color: #333333; /* Dark gray text for better readability */
+  padding: 4px; /* Padding for spacing within time slots */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.rbc-time-slot:hover {
+  background-color: #d9e4f5; /* Light blue on hover */
+}
+
+/* Event styles */
+.rbc-event,
+.rbc-background-event {
+    z-index: 1; /* Ensures events appear above the background */
+    background-color: #003366; /* Dark blue background for events */
+    color: #FFFFFF; /* White text for contrast */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 5px 10px; /* Padding for spacing within event */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.rbc-event:hover,
+.rbc-background-event:hover {
+    background-color: #00509E; /* Lighter blue on hover */
+}
+
+.rbc-event-label {
+    display: none; /* Hides the event label, if desired */
+}
+
+.rbc-events-container {
+    width: '100%';
+    border-left: 2px solid #003366; /* Dark blue border on the left side */
+    padding: 5px; /* Padding for spacing between events */
+    overflow: hidden; /* Prevent overflow of events */
+    border-radius: 4px; /* Rounded corners for a clean look */
+}
